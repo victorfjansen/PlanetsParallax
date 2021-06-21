@@ -131,7 +131,7 @@ section{
 
 @media (max-width:760px) {
   .earth img {
-    left: -2vw;
+    left: 0vw;
   }
 }
 
