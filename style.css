@@ -116,7 +116,7 @@ section{
 @media (max-width:760px) {
   .text h1 {
     top: 45vh;
-    left: 24vw;
+    left: 20vw;
     font-size: 2rem;
   }
 }
