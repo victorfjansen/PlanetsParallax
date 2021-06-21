@@ -34,7 +34,6 @@ let slider = new Swiper('.swiper-container', {
 // SLIDE ANIMATIONS
 
 slider.on("slideChange", function() {
-  console.log("SLIDE CHANGED");
   gsap.to(".slide-text span", 0.2, {
     x: "-100px"
   });
