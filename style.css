@@ -328,6 +328,9 @@ section{
 }
 
 @media (max-width:760px) {
+  .slide-detail {
+    width: 60%;
+  }
   .slide-detail p {
     line-height: 1rem;
   }
