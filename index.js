@@ -35,16 +35,16 @@ let slider = new Swiper('.swiper-container', {
 
 slider.on("slideChange", function() {
   gsap.to(".slide-text span", 0.2, {
-    x: "-100px"
+    x: "-300px"
   });
   gsap.to(".slide-number span", 0.2, {
-    x: "-100px"
+    x: "-300px"
   });
   gsap.to(".slide-detail span", 0.5, {
-    x: "-1000px"
+    x: "-1400px"
   });
   gsap.to(".slide-detail-facts div", 0.5, {
-    x: "-1000px"
+    x: "-1400px"
   });
   gsap.to(".swiper-slide-active", 0.5, {
     scale: 0.85
