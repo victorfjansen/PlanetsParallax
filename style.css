@@ -116,7 +116,8 @@ section{
 @media (max-width:760px) {
   .text h1 {
     top: 45vh;
-    left: 10vw;
+    left: 24vw;
+    font-size: 2rem;
   }
 }
 
@@ -193,7 +194,9 @@ section{
 
 @media (max-width: 760px) {
   .rockbg1 {
-    left: -5vw;
+    top: 25vh;
+    left: -8vw;
+    transform: scale(0.1);
     filter: brightness(0.6);
   }
 }
