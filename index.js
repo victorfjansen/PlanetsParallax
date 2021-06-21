@@ -7,10 +7,10 @@ let parallaxInstance = new Parallax(scene)
 //SWIPER
 
 let keys  = [
-  'Mercury',
+  'Mercurio',
   'Venus',
-  'Earth',
-  "Mars",
+  'Terra',
+  "Marte",
   'Jupiter',
   'Saturno',
   'Urano',

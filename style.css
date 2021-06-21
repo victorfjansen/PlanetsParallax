@@ -36,6 +36,12 @@ nav{
   padding: 10px 30px
 }
 
+@media (max-width:760px) {
+  nav {
+    width: 85%;
+  }
+}
+
 /* LOGO  */
 .logo a{
   color: #FFF;
@@ -81,9 +87,20 @@ section{
   top: 20vh !important;
 }
 
+
 .rock1 img {
   width: 40%;
   filter: brightness(0.5);
+}
+
+@media (max-width: 760px) {
+  .rock1 {
+    left: 5vw !important;
+  }
+
+  .rock img {
+    width: 30%;
+  }
 }
 
 .text h1 {
@@ -96,6 +113,12 @@ section{
   left: 34vw;
 }
 
+@media (max-width:760px) {
+  .text h1 {
+    top: 45vh;
+  }
+}
+
 .earth img {
     width: 400px;
     height: 400px;
@@ -104,6 +127,12 @@ section{
     top: 25vh;
     z-index: 1;
     filter: brightness(0.7);
+}
+
+@media (max-width:760px) {
+  .earth img {
+    left: 17vw;
+  }
 }
 
 .mid {
@@ -134,6 +163,16 @@ section{
   filter: brightness(0.5);
 }
 
+@media (max-width: 760px) {
+  .fore{
+    top: unset !important;
+  }
+  .fore img {
+    width: 200px;
+    height: 55vh;
+  }
+}
+
 /* SWIPER */
 
 #sectiontwo {
@@ -149,6 +188,13 @@ section{
   top: 20vh;
   left: 0;
   z-index: 1;
+}
+
+@media (max-width: 760px) {
+  .rockbg1 {
+    left: -5vw;
+    filter: brightness(0.6);
+  }
 }
 
 .planet-links {
@@ -167,8 +213,18 @@ section{
   outline: none;
 }
 
+@media (max-width: 760px) {
+  .planet-links{
+    display: flex;
+    justify-content: space-around;
+  }
+  .planet-links .swiper-pagination-bullet {
+    font-size: 0.775em;
+  }
+}
+
 .planet-links .swiper-pagination-bullet-active {
-  color: #FFF;
+  color: white;
   opacity: 1;
 }
 
@@ -271,6 +327,12 @@ section{
   line-height: 30px;
 }
 
+@media (max-width:760px) {
+  .slide-detail p {
+    line-height: 1rem;
+  }
+}
+
 .slide-detail p span {
   position: absolute;
 }
@@ -289,6 +351,20 @@ section{
 .slide-detail-facts div {
   display: flex;
   position: relative;
+}
+
+@media (max-width: 760px) {
+  .slide-detail-facts div{
+    flex-direction: column;
+  }
+
+  .slide-detail-facts {
+    top: 310px;
+  }
+
+  .slide-detail-facts div h5:nth-child(2) {
+    margin-top: -10px;
+  }
 }
 
 .slide-detail-facts div h5 {
