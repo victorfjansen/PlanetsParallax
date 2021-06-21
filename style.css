@@ -131,7 +131,7 @@ section{
 
 @media (max-width:760px) {
   .earth img {
-    left: 17vw;
+    left: 13vw;
   }
 }
 
@@ -205,7 +205,8 @@ section{
   bottom: 0;
   display: flex;
   justify-content: space-evenly;
-  list-style: none
+  list-style: none;
+  overflow: hidden;
 }
 
 .planet-links .swiper-pagination-bullet {
